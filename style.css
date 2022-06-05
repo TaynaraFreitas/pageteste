@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Roboto:wght@900&display=swap');
+
+:root{
+  --font-tittle: font-family: 'Roboto', sans-serif;
+  --font-paragraph: font-family: 'Nuosu SIL', serif;
+  --color-black:Black;
+  --color-silver:silver;
+  --color-blue-violet:blueviolet;
+  --color-white:white;
+}
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-silver);
+}
+
+#main-title{
+    margin: 15px;
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--color-black);
+}
+
+.tittle{
+   text-align: center;
+   color: var(--color-black);
+   font-weight: bold;
+   font-size: 3rem;   
+}
+
+.btn{
+    text-align: center;
+    align-items: center;
+    border-radius:50px;
+    display:flex;
+    justify-content: center;
+    font:var(--font-paragraph);
+    text-decoration:none;
+    color: var(--color-black);
+    font-weight: bolder;
+    border: 0.3rem solid var(--color-white);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    width: 40rem;
+    padding: 2rem;
+    margin: 2rem 5rem 5rem 4rem ;
+}
+
+main .btn:hover{
+    border-color: var(--color-blue-violet);
+}
+
+main  .btn:active {
+    border-color: var(--color-black);    
+}
+
+
+.container{
+   position: absolute;
+   width: 100%;
+   height:100%;
+   background-color:var(--color-silver);
+   
+}
+
+main li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 45%;
+    margin: 0 1.5%;
+    padding: 30rem 2 rem;
+    box-sizing: border-box;
+    border: 0.5rem solid var(--color-white) ;
+}
+
+footer{
+    font:var(--font-paragraph);
+    text-align: center;
+    background: var(--color-black);
+    color:var(--color-white);
+    padding: 3rem 
+}
